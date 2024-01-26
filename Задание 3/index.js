@@ -1,0 +1,24 @@
+let name = 'Полина';
+let age = 20;
+let bool = true;
+let child = NaN;
+let sister = null;
+let addition;
+let id = Symbol('id');
+let big = BigInt(10)
+name = 20;
+age = true;
+bool = 'Полина';
+child = true;
+sister = 20;
+addition = 'Полина';
+id = 'Полина';
+big = true;
+console.log('name', name, typeof name);
+console.log('age', age, typeof age);
+console.log('bool', bool, typeof bool);
+console.log('child', child, typeof child);
+console.log('sister', sister, typeof sister);
+console.log('addition', addition, typeof addition);
+console.log('id', id, typeof id);
+console.log('big', big, typeof big);
