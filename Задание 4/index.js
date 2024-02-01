@@ -29,3 +29,10 @@ const startSliceIndex = +prompt("С какого индекса обрезать
 const endSliceIndex = +prompt("До какого индекса обрезать?").trim();
 userStr = userString.slice(startSliceIndex, endSliceIndex);
 alert(`Результат: ${userString}`);
+
+//6
+let userText = prompt('Введите текст').trim();
+const wordFromText = prompt('Введите слово из текста').trim();
+const indexOfWord = userText.indexOf(wordFromText);
+userText = userText.slice(0, indexOfWord);
+alert(`Результат: ${userText}`);
