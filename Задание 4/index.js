@@ -10,10 +10,7 @@ let myInfoText = `Всем привет! Меня зовут ${myName}. Сейч
 console.log(myInfoText);
 
 //2
-myInfoText = myInfoText.replaceAll(
-    progrLang,
-    progrLang.toUpperCase()
-  );
+myInfoText = myInfoText.replaceAll(progrLang, progrLang.toUpperCase());
 console.log(myInfoText);
 console.log(myInfoText.length);
 console.log(myInfoText[0], myInfoText[myInfoText.length - 1]);
