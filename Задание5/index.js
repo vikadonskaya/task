@@ -1,5 +1,5 @@
 //1
-/*const userLogin = prompt('Введите логин').trim();
+const userLogin = prompt('Введите логин').trim();
 const userPassword = prompt('Введите пароль').trim();
 const existedUserLogin = 'the_best_user';
 const existedUserPassword = '12345678';
@@ -60,10 +60,10 @@ else{
   alert('Неверно');
   incorrectAnswers++
 }
-alert("Конец теста! Правильные ответы: " + correctAnswers + ". Неправильные ответы:" + incorrectAnswers );*/
+alert("Конец теста! Правильные ответы: " + correctAnswers + ". Неправильные ответы:" + incorrectAnswers );
 
 //3
-/*let question1 = confirm('JavaScript появился в 1995 году?');
+let question1 = confirm('JavaScript появился в 1995 году?');
 question1 === true
     ?alert('Верно')
     :alert('Неверно! Год создания JavaScript 1996')
@@ -74,18 +74,18 @@ question2 === true
 let question3 = confirm('JavaScript был создан за 1 месяц?');
 question3 === true
     ?alert('Верно')
-    :alert('Неверно! JavaScript был создан за 1 месяц');*/
+    :alert('Неверно! JavaScript был создан за 1 месяц');
 
 //4
-/*for (let i = 0; i < 3; i += 1) {
+for (let i = 0; i < 3; i += 1) {
   let newStudent = prompt("Введите имя нового студента!");
   newStudent = newStudent.trim();
   if (newStudent) {
     alert(`Добро пожаловать, ${newStudent}`);
   }
 }
-*/
-/*let i = 0;
+
+let i = 0;
 while (i < 3) {
   let newStudent = prompt("Введите имя нового студента!");
   newStudent = newStudent.trim();
@@ -93,8 +93,9 @@ while (i < 3) {
   }
   alert(`Добро пожаловать, ${newStudent}!`);
   i+=1
-}*/
-/*let i = 0;
+}
+
+let i = 0;
 do {
   let newStudent = prompt("Введите имя нового студента!");
   newStudent = newStudent.trim();
